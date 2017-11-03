@@ -7,3 +7,7 @@
 [03-Nov-2017 11:49:24 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/oop-sandbox/2_6.php on line 45
 [03-Nov-2017 11:49:24 UTC] PHP Stack trace:
 [03-Nov-2017 11:49:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/oop-sandbox/2_6.php:0
+[03-Nov-2017 12:04:16 UTC] PHP Fatal error:  Class 'slef' not found in /home/ubuntu/workspace/oop-sandbox/2_7.php on line 9
+[03-Nov-2017 12:04:16 UTC] PHP Stack trace:
+[03-Nov-2017 12:04:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/oop-sandbox/2_7.php:0
+[03-Nov-2017 12:04:16 UTC] PHP   2. User::validatePass() /home/ubuntu/workspace/oop-sandbox/2_7.php:19
