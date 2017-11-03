@@ -1,3 +1,9 @@
 [03-Nov-2017 11:25:50 UTC] PHP Fatal error:  Cannot access private property User::$name in /home/ubuntu/workspace/oop-sandbox/2_5.php on line 15
 [03-Nov-2017 11:25:50 UTC] PHP Stack trace:
 [03-Nov-2017 11:25:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/oop-sandbox/2_5.php:0
+[03-Nov-2017 11:45:41 UTC] PHP Fatal error:  Cannot access private property Customer::$balance in /home/ubuntu/workspace/oop-sandbox/2_6.php on line 30
+[03-Nov-2017 11:45:41 UTC] PHP Stack trace:
+[03-Nov-2017 11:45:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/oop-sandbox/2_6.php:0
+[03-Nov-2017 11:49:24 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/oop-sandbox/2_6.php on line 45
+[03-Nov-2017 11:49:24 UTC] PHP Stack trace:
+[03-Nov-2017 11:49:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/oop-sandbox/2_6.php:0
