@@ -3,15 +3,15 @@
     
     // DB Params
     define('DB_HOST', 'localhost');
-    define('DB_USER', 'root');
-    define('DB_PASS', '');
-    define('DB_NAME', 'tmvc');
+    define('DB_USER', '_YOUR_USER_');
+    define('DB_PASS', '_YOUR_PASS_');
+    define('DB_NAME', '_YOUR_DB_NAME_');
     
     
     
     //APP Root
     define('APPROOT', dirname(dirname(__FILE__)));
     // URL Root
-    define('URLROOT', 'https://php-mvc-cowboy8038.c9users.io/Reddirt-MVC');
+    define('URLROOT', '_YOUR_URL_');
     //Site Name
-    define('SITENAME', 'Reddirt-MVC');
+    define('SITENAME', '_YOUR_SITE_NAME_');
