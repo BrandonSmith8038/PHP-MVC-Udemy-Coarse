@@ -15,3 +15,5 @@
     define('URLROOT', 'https://php-mvc-cowboy8038.c9users.io/shareposts');
     //Site Name
     define('SITENAME', 'SharePosts');
+    //App Version
+    define('APPVERSION', '1.0.0' );
