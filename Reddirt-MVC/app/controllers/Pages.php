@@ -3,6 +3,14 @@
     class Pages {
         
         public function __construct(){
-            echo 'Pages Loaded';
+            
+        }
+        
+        public function index(){
+            
+        }
+        
+        public function about($name){
+            echo 'Hello ' . $name . ' This is the About Page';
         }
     }

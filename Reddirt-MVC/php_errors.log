@@ -6,3 +6,12 @@
 [04-Nov-2017 08:02:53 UTC] PHP Stack trace:
 [04-Nov-2017 08:02:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
 [04-Nov-2017 08:02:53 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 08:12:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php on line 12
+[04-Nov-2017 08:12:39 UTC] PHP Stack trace:
+[04-Nov-2017 08:12:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 08:12:39 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 08:15:31 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Pages' does not have a method 'index' in /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php on line 49
+[04-Nov-2017 08:15:31 UTC] PHP Stack trace:
+[04-Nov-2017 08:15:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 08:15:31 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 08:15:31 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
