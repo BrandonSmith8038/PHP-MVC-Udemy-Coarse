@@ -1,0 +1,8 @@
+[04-Nov-2017 08:02:26 UTC] PHP Fatal error:  Class 'Posts' not found in /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php on line 33
+[04-Nov-2017 08:02:26 UTC] PHP Stack trace:
+[04-Nov-2017 08:02:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 08:02:26 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 08:02:53 UTC] PHP Fatal error:  Class 'Posts' not found in /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php on line 33
+[04-Nov-2017 08:02:53 UTC] PHP Stack trace:
+[04-Nov-2017 08:02:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 08:02:53 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
