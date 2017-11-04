@@ -7,10 +7,12 @@
         }
         
         public function index(){
-            $this->view('Hello');
+            $data = ['title' => 'Welcome'];
+            
+            $this->view('pages/index', $data);
         }
         
-        public function about($name){
-            echo 'Hello ' . $name . ' This is the About Page';
+        public function about(){
+            $this->view('pages/about');
         }
     }
