@@ -29,3 +29,6 @@
 [04-Nov-2017 08:36:48 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
 [04-Nov-2017 08:36:48 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
 [04-Nov-2017 08:36:48 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:10
+[04-Nov-2017 09:05:34 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home/ubuntu/workspace/Reddirt-MVC/app/bootstrap.php on line 7
+[04-Nov-2017 09:05:34 UTC] PHP Stack trace:
+[04-Nov-2017 09:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
