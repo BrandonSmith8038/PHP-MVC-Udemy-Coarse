@@ -40,3 +40,109 @@
 [04-Nov-2017 09:20:38 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
 [04-Nov-2017 09:20:38 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:12
 [04-Nov-2017 09:20:38 UTC] PHP   6. require_once() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Controller.php:25
+[04-Nov-2017 10:37:32 UTC] PHP Warning:  require_once(../app/models/Post.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Controller.php on line 13
+[04-Nov-2017 10:37:32 UTC] PHP Stack trace:
+[04-Nov-2017 10:37:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 10:37:32 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 10:37:32 UTC] PHP   3. Pages->__construct() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:32
+[04-Nov-2017 10:37:32 UTC] PHP   4. Controller->model() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:6
+[04-Nov-2017 10:37:32 UTC] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Controller.php on line 13
+[04-Nov-2017 10:37:32 UTC] PHP Stack trace:
+[04-Nov-2017 10:37:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 10:37:32 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 10:37:32 UTC] PHP   3. Pages->__construct() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:32
+[04-Nov-2017 10:37:32 UTC] PHP   4. Controller->model() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:6
+[04-Nov-2017 10:49:37 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Database.php on line 29
+[04-Nov-2017 10:49:37 UTC] PHP Stack trace:
+[04-Nov-2017 10:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 10:49:37 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 10:49:37 UTC] PHP   3. Pages->__construct() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:32
+[04-Nov-2017 10:49:37 UTC] PHP   4. Controller->model() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:6
+[04-Nov-2017 10:49:37 UTC] PHP   5. Post->__construct() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Controller.php:16
+[04-Nov-2017 10:49:37 UTC] PHP   6. Database->__construct() /home/ubuntu/workspace/Reddirt-MVC/app/models/Post.php:7
+[04-Nov-2017 10:49:37 UTC] PHP   7. PDO->__construct() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Database.php:29
+[04-Nov-2017 11:38:02 UTC] PHP Parse error:  syntax error, unexpected 'getPosts' (T_STRING), expecting variable (T_VARIABLE) in /home/ubuntu/workspace/Reddirt-MVC/app/models/Post.php on line 10
+[04-Nov-2017 11:38:02 UTC] PHP Stack trace:
+[04-Nov-2017 11:38:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:38:02 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:38:02 UTC] PHP   3. Pages->__construct() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:32
+[04-Nov-2017 11:38:02 UTC] PHP   4. Controller->model() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:6
+[04-Nov-2017 11:39:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Database.php on line 60
+[04-Nov-2017 11:39:29 UTC] PHP Stack trace:
+[04-Nov-2017 11:39:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:39:29 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:39:29 UTC] PHP   3. Pages->__construct() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:32
+[04-Nov-2017 11:39:29 UTC] PHP   4. Controller->model() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:6
+[04-Nov-2017 11:39:29 UTC] PHP   5. Post->__construct() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Controller.php:16
+[04-Nov-2017 11:39:29 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Controller.php:7
+[04-Nov-2017 11:39:29 UTC] PHP   7. {closure:/home/ubuntu/workspace/Reddirt-MVC/app/bootstrap.php:7-9}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Controller.php:7
+[04-Nov-2017 11:48:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Reddirt-MVC/app/views/pages/index.php on line 15
+[04-Nov-2017 11:48:37 UTC] PHP Stack trace:
+[04-Nov-2017 11:48:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:48:37 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:48:37 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:37 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:37 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:14
+[04-Nov-2017 11:48:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Reddirt-MVC/app/views/pages/index.php on line 14
+[04-Nov-2017 11:48:54 UTC] PHP Stack trace:
+[04-Nov-2017 11:48:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:48:54 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:48:54 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:54 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:54 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:14
+[04-Nov-2017 11:48:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Reddirt-MVC/app/views/pages/index.php on line 14
+[04-Nov-2017 11:48:55 UTC] PHP Stack trace:
+[04-Nov-2017 11:48:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:48:55 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:48:55 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:55 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:55 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:14
+[04-Nov-2017 11:48:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Reddirt-MVC/app/views/pages/index.php on line 14
+[04-Nov-2017 11:48:55 UTC] PHP Stack trace:
+[04-Nov-2017 11:48:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:48:55 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:48:55 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:55 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:55 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:14
+[04-Nov-2017 11:48:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Reddirt-MVC/app/views/pages/index.php on line 14
+[04-Nov-2017 11:48:55 UTC] PHP Stack trace:
+[04-Nov-2017 11:48:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:48:55 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:48:55 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:55 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:55 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:14
+[04-Nov-2017 11:48:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Reddirt-MVC/app/views/pages/index.php on line 14
+[04-Nov-2017 11:48:56 UTC] PHP Stack trace:
+[04-Nov-2017 11:48:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:48:56 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:48:56 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:56 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:56 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:14
+[04-Nov-2017 11:48:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Reddirt-MVC/app/views/pages/index.php on line 14
+[04-Nov-2017 11:48:56 UTC] PHP Stack trace:
+[04-Nov-2017 11:48:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:48:56 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:48:56 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:56 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:56 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:14
+[04-Nov-2017 11:48:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Reddirt-MVC/app/views/pages/index.php on line 14
+[04-Nov-2017 11:48:57 UTC] PHP Stack trace:
+[04-Nov-2017 11:48:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:48:57 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:48:57 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:57 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:57 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:14
+[04-Nov-2017 11:48:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Reddirt-MVC/app/views/pages/index.php on line 14
+[04-Nov-2017 11:48:57 UTC] PHP Stack trace:
+[04-Nov-2017 11:48:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:48:57 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:48:57 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:57 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:57 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:14
+[04-Nov-2017 11:48:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/Reddirt-MVC/app/views/pages/index.php on line 14
+[04-Nov-2017 11:48:58 UTC] PHP Stack trace:
+[04-Nov-2017 11:48:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:0
+[04-Nov-2017 11:48:58 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/Reddirt-MVC/public/index.php:7
+[04-Nov-2017 11:48:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49}() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:58 UTC] PHP   4. Pages->index() /home/ubuntu/workspace/Reddirt-MVC/app/libraries/Core.php:49
+[04-Nov-2017 11:48:58 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/Reddirt-MVC/app/controllers/Pages.php:14
