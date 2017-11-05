@@ -9,3 +9,51 @@
 [05-Nov-2017 11:15:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
 [05-Nov-2017 11:15:16 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
 [05-Nov-2017 11:15:16 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:24:18 UTC] PHP Fatal error:  Call to a member function findUserByEmail() on a non-object in /home/ubuntu/workspace/shareposts/app/controllers/Users.php on line 36
+[05-Nov-2017 12:24:18 UTC] PHP Stack trace:
+[05-Nov-2017 12:24:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[05-Nov-2017 12:24:18 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[05-Nov-2017 12:24:18 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:24:18 UTC] PHP   4. Users->register() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:26:49 UTC] PHP Fatal error:  Call to a member function findUserByEmail() on a non-object in /home/ubuntu/workspace/shareposts/app/controllers/Users.php on line 36
+[05-Nov-2017 12:26:49 UTC] PHP Stack trace:
+[05-Nov-2017 12:26:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[05-Nov-2017 12:26:49 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[05-Nov-2017 12:26:49 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:26:49 UTC] PHP   4. Users->register() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:28:51 UTC] PHP Fatal error:  Call to a member function findUserByEmail() on a non-object in /home/ubuntu/workspace/shareposts/app/controllers/Users.php on line 36
+[05-Nov-2017 12:28:51 UTC] PHP Stack trace:
+[05-Nov-2017 12:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[05-Nov-2017 12:28:51 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[05-Nov-2017 12:28:51 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:28:51 UTC] PHP   4. Users->register() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:30:16 UTC] PHP Fatal error:  Call to a member function findUserByEmail() on a non-object in /home/ubuntu/workspace/shareposts/app/controllers/Users.php on line 36
+[05-Nov-2017 12:30:16 UTC] PHP Stack trace:
+[05-Nov-2017 12:30:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[05-Nov-2017 12:30:16 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[05-Nov-2017 12:30:16 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:30:16 UTC] PHP   4. Users->register() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:33:58 UTC] PHP Fatal error:  Call to a member function findUserByEmail() on a non-object in /home/ubuntu/workspace/shareposts/app/controllers/Users.php on line 36
+[05-Nov-2017 12:33:58 UTC] PHP Stack trace:
+[05-Nov-2017 12:33:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[05-Nov-2017 12:33:58 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[05-Nov-2017 12:33:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:33:58 UTC] PHP   4. Users->register() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:36:31 UTC] PHP Fatal error:  Call to a member function findUserByEmail() on a non-object in /home/ubuntu/workspace/shareposts/app/controllers/Users.php on line 36
+[05-Nov-2017 12:36:31 UTC] PHP Stack trace:
+[05-Nov-2017 12:36:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[05-Nov-2017 12:36:31 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[05-Nov-2017 12:36:31 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:36:31 UTC] PHP   4. Users->register() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:37:31 UTC] PHP Fatal error:  Call to a member function findUserByEmail() on a non-object in /home/ubuntu/workspace/shareposts/app/controllers/Users.php on line 36
+[05-Nov-2017 12:37:31 UTC] PHP Stack trace:
+[05-Nov-2017 12:37:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[05-Nov-2017 12:37:31 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[05-Nov-2017 12:37:31 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:45}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:45
+[05-Nov-2017 12:37:31 UTC] PHP   4. Users->register() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:45
+[05-Nov-2017 12:37:58 UTC] PHP Fatal error:  Call to a member function findUserByEmail() on a non-object in /home/ubuntu/workspace/shareposts/app/controllers/Users.php on line 36
+[05-Nov-2017 12:37:58 UTC] PHP Stack trace:
+[05-Nov-2017 12:37:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[05-Nov-2017 12:37:58 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[05-Nov-2017 12:37:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 12:37:58 UTC] PHP   4. Users->register() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
