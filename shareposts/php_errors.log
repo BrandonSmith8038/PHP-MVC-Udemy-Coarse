@@ -4,3 +4,8 @@
 [05-Nov-2017 10:59:15 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
 [05-Nov-2017 10:59:15 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
 [05-Nov-2017 10:59:15 UTC] PHP   4. Users->register() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[05-Nov-2017 11:15:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Users' does not have a method 'index' in /home/ubuntu/workspace/shareposts/app/libraries/Core.php on line 49
+[05-Nov-2017 11:15:16 UTC] PHP Stack trace:
+[05-Nov-2017 11:15:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[05-Nov-2017 11:15:16 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[05-Nov-2017 11:15:16 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
