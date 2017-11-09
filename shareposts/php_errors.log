@@ -57,3 +57,7 @@
 [05-Nov-2017 12:37:58 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
 [05-Nov-2017 12:37:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
 [05-Nov-2017 12:37:58 UTC] PHP   4. Users->register() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[09-Nov-2017 11:32:55 UTC] PHP Parse error:  syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/shareposts/app/controllers/Users.php on line 130
+[09-Nov-2017 11:32:55 UTC] PHP Stack trace:
+[09-Nov-2017 11:32:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[09-Nov-2017 11:32:55 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
