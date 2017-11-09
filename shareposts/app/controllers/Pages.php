@@ -8,6 +8,10 @@
         
         public function index(){
             
+            if(isLoggedIn){
+                redirect('posts');
+            }
+            
             $data = ['title' => 'SharePosts', 'description' => 'Simple social network built on the Reddirt MVC PHP Framework'];
             
             $this->view('pages/index', $data);
