@@ -202,3 +202,9 @@ Stack trace:
 #5 /home/ubuntu/workspace/shareposts/public/index.php(7): Core->__construct()
 #6 {main}
   thrown in /home/ubuntu/workspace/shareposts/app/libraries/Database.php on line 65
+[10-Nov-2017 10:00:05 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/shareposts/app/controllers/Posts.php on line 145
+[10-Nov-2017 10:00:05 UTC] PHP Stack trace:
+[10-Nov-2017 10:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[10-Nov-2017 10:00:05 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[10-Nov-2017 10:00:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[10-Nov-2017 10:00:05 UTC] PHP   4. Posts->delete() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
