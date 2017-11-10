@@ -192,3 +192,13 @@ Stack trace:
 [10-Nov-2017 08:41:01 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
 [10-Nov-2017 08:41:01 UTC] PHP   4. Posts->show() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
 [10-Nov-2017 08:41:01 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/shareposts/app/controllers/Posts.php:83
+[10-Nov-2017 09:53:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = NULL' at line 1' in /home/ubuntu/workspace/shareposts/app/libraries/Database.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/shareposts/app/libraries/Database.php(65): PDOStatement->execute()
+#1 /home/ubuntu/workspace/shareposts/app/models/Post.php(50): Database->execute()
+#2 /home/ubuntu/workspace/shareposts/app/controllers/Posts.php(97): Post->updatePost(Array)
+#3 [internal function]: Posts->edit('5')
+#4 /home/ubuntu/workspace/shareposts/app/libraries/Core.php(49): call_user_func_array(Array, Array)
+#5 /home/ubuntu/workspace/shareposts/public/index.php(7): Core->__construct()
+#6 {main}
+  thrown in /home/ubuntu/workspace/shareposts/app/libraries/Database.php on line 65
