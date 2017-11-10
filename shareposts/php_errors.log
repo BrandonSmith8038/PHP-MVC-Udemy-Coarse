@@ -173,3 +173,22 @@ Stack trace:
 [10-Nov-2017 08:11:48 UTC] PHP Stack trace:
 [10-Nov-2017 08:11:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
 [10-Nov-2017 08:11:48 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[10-Nov-2017 08:39:25 UTC] PHP Fatal error:  Call to undefined method User::getUserById() in /home/ubuntu/workspace/shareposts/app/controllers/Posts.php on line 76
+[10-Nov-2017 08:39:25 UTC] PHP Stack trace:
+[10-Nov-2017 08:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[10-Nov-2017 08:39:25 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[10-Nov-2017 08:39:25 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[10-Nov-2017 08:39:25 UTC] PHP   4. Posts->show() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[10-Nov-2017 08:40:44 UTC] PHP Fatal error:  Call to undefined method User::getUserById() in /home/ubuntu/workspace/shareposts/app/controllers/Posts.php on line 76
+[10-Nov-2017 08:40:44 UTC] PHP Stack trace:
+[10-Nov-2017 08:40:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[10-Nov-2017 08:40:44 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[10-Nov-2017 08:40:44 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[10-Nov-2017 08:40:44 UTC] PHP   4. Posts->show() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[10-Nov-2017 08:41:01 UTC] PHP Parse error:  syntax error, unexpected 'By' (T_STRING) in /home/ubuntu/workspace/shareposts/app/views/posts/show.php on line 8
+[10-Nov-2017 08:41:01 UTC] PHP Stack trace:
+[10-Nov-2017 08:41:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/shareposts/public/index.php:0
+[10-Nov-2017 08:41:01 UTC] PHP   2. Core->__construct() /home/ubuntu/workspace/shareposts/public/index.php:7
+[10-Nov-2017 08:41:01 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/shareposts/app/libraries/Core.php:49}() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[10-Nov-2017 08:41:01 UTC] PHP   4. Posts->show() /home/ubuntu/workspace/shareposts/app/libraries/Core.php:49
+[10-Nov-2017 08:41:01 UTC] PHP   5. Controller->view() /home/ubuntu/workspace/shareposts/app/controllers/Posts.php:83
